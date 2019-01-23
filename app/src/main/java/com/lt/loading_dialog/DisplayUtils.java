@@ -26,6 +26,7 @@ public class DisplayUtils {
      * @return
      */
     public static int getScreenWidth(Context context) {
+        
         DisplayMetrics displayMetrics = new DisplayMetrics();
         ((Activity) context).getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         return displayMetrics.widthPixels;
